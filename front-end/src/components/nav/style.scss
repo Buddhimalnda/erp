@@ -1,0 +1,54 @@
+@import "../../variables";
+
+.navbar {
+    color: #eee;
+    .top-bar {
+        position: fixed;
+        display: flex;
+        height: 80px;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: $primary;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo{
+            display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+            .img{
+                width: 230px;
+                height: 60px;
+                img{
+                    height: 75px;
+                    margin: 2px 0 0 2px;
+                }
+            }
+            .act{
+                width: 60px;
+            }
+        }
+        .menus{
+            display: flex;    
+            align-items: center;
+            justify-content: space-between;
+            .btn-list{
+                display: flex;    
+            align-items: center;
+            justify-content: space-between;
+            }
+        }
+    }
+
+    .leftbar {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        height: 100%;
+        width: 230px;
+        background: $dark;
+    }
+}
